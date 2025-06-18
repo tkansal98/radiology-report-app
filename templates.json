@@ -1,0 +1,1762 @@
+[
+  {
+    "modality": "X-ray",
+    "system": "Chest",
+    "diagnosis": "Frontal and Lateral View",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Lines and Tubes",
+        "field": "lines_and_tubes",
+        "type": "text",
+        "normal": "No lines or tubes seen."
+      },
+      {
+        "label": "Complications",
+        "field": "complications",
+        "type": "text",
+        "normal": "No complications noted."
+      },
+      {
+        "label": "Frontal - Soft Tissues",
+        "field": "frontal_soft_tissues",
+        "type": "text",
+        "normal": "Normal soft tissues without subcutaneous emphysema."
+      },
+      {
+        "label": "Frontal - Bones",
+        "field": "frontal_bones",
+        "type": "text",
+        "normal": "No rib fractures or bony abnormalities."
+      },
+      {
+        "label": "Frontal - Diaphragm",
+        "field": "frontal_diaphragm",
+        "type": "text",
+        "normal": "Diaphragm contours are smooth and sharp with no elevation or flattening."
+      },
+      {
+        "label": "Frontal - Pleura",
+        "field": "frontal_pleura",
+        "type": "text",
+        "normal": "No pleural effusion or thickening."
+      },
+      {
+        "label": "Frontal - Lung Parenchyma",
+        "field": "frontal_lung_parenchyma",
+        "type": "text",
+        "normal": "Lung fields are clear bilaterally with no consolidation or mass."
+      },
+      {
+        "label": "Frontal - Hila",
+        "field": "frontal_hila",
+        "type": "text",
+        "normal": "Hila are not enlarged and show normal contours."
+      },
+      {
+        "label": "Frontal - Mediastinum",
+        "field": "frontal_mediastinum",
+        "type": "text",
+        "normal": "Mediastinum is midline with normal width."
+      },
+      {
+        "label": "Frontal - Heart",
+        "field": "frontal_heart",
+        "type": "text",
+        "normal": "Heart size within normal limits. No cardiomegaly."
+      },
+      {
+        "label": "Frontal - Upper Abdomen",
+        "field": "frontal_upper_abdomen",
+        "type": "text",
+        "normal": "Normal gas pattern in the upper abdomen."
+      },
+      {
+        "label": "Frontal - Devices",
+        "field": "frontal_devices",
+        "type": "text",
+        "normal": "No medical devices noted."
+      },
+      {
+        "label": "Lateral - Soft Tissues",
+        "field": "lateral_soft_tissues",
+        "type": "text",
+        "normal": "Normal soft tissues without swelling or gas."
+      },
+      {
+        "label": "Lateral - Bones",
+        "field": "lateral_bones",
+        "type": "text",
+        "normal": "Vertebrae and ribs are intact with no fractures."
+      },
+      {
+        "label": "Lateral - Diaphragm",
+        "field": "lateral_diaphragm",
+        "type": "text",
+        "normal": "Both diaphragmatic domes are seen distinctly."
+      },
+      {
+        "label": "Lateral - Pleura",
+        "field": "lateral_pleura",
+        "type": "text",
+        "normal": "No layering pleural effusion or thickening."
+      },
+      {
+        "label": "Lateral - Lung Parenchyma",
+        "field": "lateral_lung_parenchyma",
+        "type": "text",
+        "normal": "No retrosternal or retrocardiac opacities."
+      },
+      {
+        "label": "Lateral - Hila",
+        "field": "lateral_hila",
+        "type": "text",
+        "normal": "Hilar structures are normal in position and density."
+      },
+      {
+        "label": "Lateral - Mediastinum",
+        "field": "lateral_mediastinum",
+        "type": "text",
+        "normal": "No mass effect or displacement."
+      },
+      {
+        "label": "Lateral - Heart",
+        "field": "lateral_heart",
+        "type": "text",
+        "normal": "Normal cardiac contour anteriorly and posteriorly."
+      },
+      {
+        "label": "Lateral - Spine",
+        "field": "lateral_spine",
+        "type": "text",
+        "normal": "No evidence of vertebral collapse or lesions."
+      },
+      {
+        "label": "Lateral - Upper Abdomen",
+        "field": "lateral_upper_abdomen",
+        "type": "text",
+        "normal": "No free air or abnormal gas pattern."
+      },
+      {
+        "label": "Lateral - Devices",
+        "field": "lateral_devices",
+        "type": "text",
+        "normal": "No foreign bodies or devices seen."
+      },
+      {
+        "label": "Blind Spots",
+        "field": "blind_spots",
+        "type": "text",
+        "normal": "All anatomical blind spots reviewed and unremarkable."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "CT",
+    "system": "Chest",
+    "diagnosis": "General",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Study Protocol",
+        "field": "study_protocol",
+        "type": "text",
+        "normal": "Axial images acquired with contrast. Coronal and sagittal reformats available."
+      },
+      {
+        "label": "Technical Quality",
+        "field": "technical_quality",
+        "type": "text",
+        "normal": "No significant motion or artifact. Diagnostic quality study."
+      },
+      {
+        "label": "Lung Parenchyma",
+        "field": "lung_parenchyma",
+        "type": "text",
+        "normal": "Lung fields are clear with no evidence of consolidation, ground-glass opacities, or mass."
+      },
+      {
+        "label": "Airways",
+        "field": "airways",
+        "type": "text",
+        "normal": "Central airways are patent with no evidence of bronchial wall thickening or obstruction."
+      },
+      {
+        "label": "Pleura",
+        "field": "pleura",
+        "type": "text",
+        "normal": "No pleural effusion, thickening, or pneumothorax seen."
+      },
+      {
+        "label": "Pulmonary Vasculature",
+        "field": "pulmonary_vessels",
+        "type": "text",
+        "normal": "Main pulmonary arteries are normal in caliber. No filling defects noted."
+      },
+      {
+        "label": "Mediastinum",
+        "field": "mediastinum",
+        "type": "text",
+        "normal": "No enlarged lymph nodes or mediastinal mass."
+      },
+      {
+        "label": "Heart and Pericardium",
+        "field": "heart_pericardium",
+        "type": "text",
+        "normal": "Heart size is normal. No pericardial effusion seen."
+      },
+      {
+        "label": "Thoracic Aorta",
+        "field": "thoracic_aorta",
+        "type": "text",
+        "normal": "Aorta is normal in course and caliber. No dissection or aneurysm."
+      },
+      {
+        "label": "Bones",
+        "field": "bones",
+        "type": "text",
+        "normal": "No suspicious lytic or sclerotic lesions. Ribs and spine unremarkable."
+      },
+      {
+        "label": "Upper Abdomen",
+        "field": "upper_abdomen",
+        "type": "text",
+        "normal": "Visualized upper abdominal organs are unremarkable."
+      },
+      {
+        "label": "Devices or Foreign Bodies",
+        "field": "devices",
+        "type": "text",
+        "normal": "No medical devices or foreign bodies seen."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "CT",
+    "system": "Chest",
+    "diagnosis": "Pulmonary Embolism",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Study Protocol",
+        "field": "study_protocol",
+        "type": "text",
+        "normal": "CT Pulmonary Angiography performed with contrast. Thin axial slices with coronal and sagittal reformats."
+      },
+      {
+        "label": "Technical Quality",
+        "field": "technical_quality",
+        "type": "text",
+        "normal": "Good contrast opacification of pulmonary arteries. Diagnostic quality study."
+      },
+      {
+        "label": "Pulmonary Arteries",
+        "field": "pulmonary_arteries",
+        "type": "text",
+        "normal": "Pulmonary arteries are well opacified. No intraluminal filling defects."
+      },
+      {
+        "label": "Pulmonary Embolism",
+        "field": "pulmonary_embolism",
+        "type": "text",
+        "normal": "No evidence of pulmonary embolism."
+      },
+      {
+        "label": "Right Heart Strain",
+        "field": "right_heart_strain",
+        "type": "text",
+        "normal": "No signs of right heart strain. Normal RV/LV ratio."
+      },
+      {
+        "label": "Lung Parenchyma",
+        "field": "lung_parenchyma",
+        "type": "text",
+        "normal": "No parenchymal infarcts, consolidation, or ground-glass opacities."
+      },
+      {
+        "label": "Pleura",
+        "field": "pleura",
+        "type": "text",
+        "normal": "No pleural effusion or pneumothorax."
+      },
+      {
+        "label": "Mediastinum",
+        "field": "mediastinum",
+        "type": "text",
+        "normal": "No enlarged mediastinal lymph nodes or masses."
+      },
+      {
+        "label": "Heart and Pericardium",
+        "field": "heart_pericardium",
+        "type": "text",
+        "normal": "Heart size is normal. No pericardial effusion."
+      },
+      {
+        "label": "Thoracic Aorta",
+        "field": "thoracic_aorta",
+        "type": "text",
+        "normal": "Thoracic aorta is normal in course and caliber."
+      },
+      {
+        "label": "Bones",
+        "field": "bones",
+        "type": "text",
+        "normal": "Visualized bones are unremarkable."
+      },
+      {
+        "label": "Upper Abdomen",
+        "field": "upper_abdomen",
+        "type": "text",
+        "normal": "Visualized upper abdominal organs are unremarkable."
+      },
+      {
+        "label": "Devices or Foreign Bodies",
+        "field": "devices",
+        "type": "text",
+        "normal": "No medical devices or foreign bodies seen."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "MRI",
+    "system": "Chest",
+    "diagnosis": "General",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Study Protocol",
+        "field": "study_protocol",
+        "type": "text",
+        "normal": "MRI chest performed with standard protocol including T1, T2, STIR, and contrast-enhanced sequences where applicable."
+      },
+      {
+        "label": "Technical Quality",
+        "field": "technical_quality",
+        "type": "text",
+        "normal": "Study is of diagnostic quality with no significant motion or susceptibility artifacts."
+      },
+      {
+        "label": "Lung Parenchyma",
+        "field": "lung_parenchyma",
+        "type": "text",
+        "normal": "Lung fields are clear with no signal abnormalities. No consolidation or mass lesion identified."
+      },
+      {
+        "label": "Mediastinum",
+        "field": "mediastinum",
+        "type": "text",
+        "normal": "No mediastinal mass or lymphadenopathy. Trachea and central airways are patent."
+      },
+      {
+        "label": "Heart and Pericardium",
+        "field": "heart_pericardium",
+        "type": "text",
+        "normal": "Cardiac chambers are normal in size. No pericardial effusion or abnormal enhancement."
+      },
+      {
+        "label": "Chest Wall",
+        "field": "chest_wall",
+        "type": "text",
+        "normal": "Chest wall musculature and ribs are unremarkable."
+      },
+      {
+        "label": "Pleura",
+        "field": "pleura",
+        "type": "text",
+        "normal": "No pleural effusion or pleural thickening."
+      },
+      {
+        "label": "Great Vessels",
+        "field": "great_vessels",
+        "type": "text",
+        "normal": "Aortic arch and great vessels are normal in caliber and signal characteristics."
+      },
+      {
+        "label": "Bones",
+        "field": "bones",
+        "type": "text",
+        "normal": "Visualized thoracic spine and ribs show no abnormal marrow signal or lesions."
+      },
+      {
+        "label": "Lymph Nodes",
+        "field": "lymph_nodes",
+        "type": "text",
+        "normal": "No abnormal lymphadenopathy detected."
+      },
+      {
+        "label": "Devices or Foreign Bodies",
+        "field": "devices",
+        "type": "text",
+        "normal": "No medical devices or foreign bodies seen."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "X-ray",
+    "system": "Abdomen",
+    "diagnosis": "General",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Projection",
+        "field": "projection",
+        "type": "text",
+        "normal": "Supine and erect abdominal radiographs."
+      },
+      {
+        "label": "Technical Quality",
+        "field": "technical_quality",
+        "type": "text",
+        "normal": "Adequate exposure and patient positioning. Entire abdomen visualized."
+      },
+      {
+        "label": "Bowel Gas Pattern",
+        "field": "bowel_gas",
+        "type": "text",
+        "normal": "Normal bowel gas pattern without evidence of obstruction or abnormal distension."
+      },
+      {
+        "label": "Air Fluid Levels",
+        "field": "air_fluid_levels",
+        "type": "text",
+        "normal": "No abnormal air-fluid levels observed."
+      },
+      {
+        "label": "Free Air",
+        "field": "free_air",
+        "type": "text",
+        "normal": "No free intraperitoneal air under the diaphragm."
+      },
+      {
+        "label": "Soft Tissues",
+        "field": "soft_tissues",
+        "type": "text",
+        "normal": "Soft tissue shadows are unremarkable."
+      },
+      {
+        "label": "Calcifications",
+        "field": "calcifications",
+        "type": "text",
+        "normal": "No abnormal calcifications seen."
+      },
+      {
+        "label": "Bones",
+        "field": "bones",
+        "type": "text",
+        "normal": "Visualized bones show no fractures, lytic or sclerotic lesions."
+      },
+      {
+        "label": "Foreign Bodies / Devices",
+        "field": "foreign_bodies",
+        "type": "text",
+        "normal": "No foreign bodies or medical devices identified."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "Fluoroscopy",
+    "system": "Upper GI",
+    "diagnosis": "Esophagogram",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Study Technique",
+        "field": "technique",
+        "type": "text",
+        "normal": "Fluoroscopic barium esophagogram performed in upright and supine positions using single or double contrast technique."
+      },
+      {
+        "label": "Pharyngeal Phase",
+        "field": "pharyngeal_phase",
+        "type": "text",
+        "normal": "Swallowing function is normal. No aspiration or delay noted."
+      },
+      {
+        "label": "Esophageal Motility",
+        "field": "motility",
+        "type": "text",
+        "normal": "Normal peristalsis and esophageal motility. No tertiary contractions."
+      },
+      {
+        "label": "Esophageal Contour",
+        "field": "esophagus_contour",
+        "type": "text",
+        "normal": "Normal mucosal pattern and contour. No masses, strictures, or filling defects."
+      },
+      {
+        "label": "Gastroesophageal Junction",
+        "field": "ge_junction",
+        "type": "text",
+        "normal": "GE junction is at expected level. No reflux or hiatal hernia observed."
+      },
+      {
+        "label": "Contrast Transit",
+        "field": "contrast_transit",
+        "type": "text",
+        "normal": "Prompt passage of contrast to the stomach. No hold-up noted."
+      },
+      {
+        "label": "Incidental Findings",
+        "field": "incidental",
+        "type": "text",
+        "normal": "No significant incidental findings."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "Fluoroscopy",
+    "system": "Upper GI",
+    "diagnosis": "Barium Meal (Stomach & Duodenum)",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Study Technique",
+        "field": "technique",
+        "type": "text",
+        "normal": "Fluoroscopic barium meal study using single/double contrast technique in multiple views."
+      },
+      {
+        "label": "Esophagus",
+        "field": "esophagus",
+        "type": "text",
+        "normal": "Esophagus is unremarkable. No strictures or filling defects."
+      },
+      {
+        "label": "Stomach - Position and Contour",
+        "field": "stomach_position",
+        "type": "text",
+        "normal": "Stomach is normally positioned with smooth contour. Normal mucosal folds."
+      },
+      {
+        "label": "Stomach - Peristalsis",
+        "field": "stomach_peristalsis",
+        "type": "text",
+        "normal": "Normal peristaltic waves observed."
+      },
+      {
+        "label": "Stomach - Filling Defects / Lesions",
+        "field": "stomach_lesions",
+        "type": "text",
+        "normal": "No masses, ulcers, or filling defects identified."
+      },
+      {
+        "label": "Pylorus and Duodenum",
+        "field": "pylorus_duodenum",
+        "type": "text",
+        "normal": "Pylorus is patent. Duodenal bulb and C-loop are normal. No narrowing or deformity."
+      },
+      {
+        "label": "Motility / Transit",
+        "field": "transit",
+        "type": "text",
+        "normal": "Prompt passage of contrast into duodenum and small bowel."
+      },
+      {
+        "label": "Incidental Findings",
+        "field": "incidental",
+        "type": "text",
+        "normal": "No significant incidental findings."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "Fluoroscopy",
+    "system": "GI",
+    "diagnosis": "Barium Follow-Through",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Study Technique",
+        "field": "technique",
+        "type": "text",
+        "normal": "Barium follow-through study performed with serial abdominal radiographs after ingestion of barium contrast."
+      },
+      {
+        "label": "Stomach and Duodenum",
+        "field": "stomach_duodenum",
+        "type": "text",
+        "normal": "Normal stomach outline. Duodenum is unremarkable."
+      },
+      {
+        "label": "Jejunum",
+        "field": "jejunum",
+        "type": "text",
+        "normal": "Normal jejunal fold pattern and caliber. No dilatation, strictures, or abnormal transit."
+      },
+      {
+        "label": "Ileum",
+        "field": "ileum",
+        "type": "text",
+        "normal": "Terminal ileum appears normal in morphology and transit time. No evidence of Crohn\u2019s or tuberculosis."
+      },
+      {
+        "label": "Transit Time",
+        "field": "transit_time",
+        "type": "text",
+        "normal": "Transit of contrast through small bowel is within normal limits."
+      },
+      {
+        "label": "Strictures / Dilatation",
+        "field": "strictures_dilatation",
+        "type": "text",
+        "normal": "No evidence of strictures, obstruction, or abnormal dilation."
+      },
+      {
+        "label": "Mucosal Pattern",
+        "field": "mucosal_pattern",
+        "type": "text",
+        "normal": "Mucosal pattern is preserved throughout. No nodularity, ulcers, or scalloping."
+      },
+      {
+        "label": "Incidental Findings",
+        "field": "incidental",
+        "type": "text",
+        "normal": "No significant incidental findings."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "Fluoroscopy",
+    "system": "GI",
+    "diagnosis": "Barium Enema",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Study Technique",
+        "field": "technique",
+        "type": "text",
+        "normal": "Single/double contrast barium enema study performed with spot films in various projections."
+      },
+      {
+        "label": "Rectum",
+        "field": "rectum",
+        "type": "text",
+        "normal": "Rectum appears normal in contour and caliber. No strictures or masses."
+      },
+      {
+        "label": "Sigmoid Colon",
+        "field": "sigmoid_colon",
+        "type": "text",
+        "normal": "Sigmoid colon is redundant but without any stricture or filling defect."
+      },
+      {
+        "label": "Descending Colon",
+        "field": "descending_colon",
+        "type": "text",
+        "normal": "Descending colon is normal in mucosal pattern and caliber."
+      },
+      {
+        "label": "Transverse Colon",
+        "field": "transverse_colon",
+        "type": "text",
+        "normal": "Transverse colon is mobile and appears normal."
+      },
+      {
+        "label": "Ascending Colon",
+        "field": "ascending_colon",
+        "type": "text",
+        "normal": "Ascending colon shows no abnormality."
+      },
+      {
+        "label": "Cecum",
+        "field": "cecum",
+        "type": "text",
+        "normal": "Cecum is normally located and distended. No filling defects or strictures."
+      },
+      {
+        "label": "Ileocecal Valve",
+        "field": "ileocecal_valve",
+        "type": "text",
+        "normal": "Ileocecal valve is normal in configuration."
+      },
+      {
+        "label": "Appendiceal Region",
+        "field": "appendix",
+        "type": "text",
+        "normal": "Appendiceal region appears normal. No mass effect or displacement."
+      },
+      {
+        "label": "Mucosal Pattern",
+        "field": "mucosa",
+        "type": "text",
+        "normal": "Mucosal folds are well defined. No evidence of inflammation or polyps."
+      },
+      {
+        "label": "Fistula / Strictures",
+        "field": "fistula_strictures",
+        "type": "text",
+        "normal": "No fistulae or strictures seen."
+      },
+      {
+        "label": "Incidental Findings",
+        "field": "incidental",
+        "type": "text",
+        "normal": "No significant incidental findings."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "Fluoroscopy",
+    "system": "Genitourinary",
+    "diagnosis": "Micturating Cystourethrogram (MCU)",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Study Technique",
+        "field": "technique",
+        "type": "text",
+        "normal": "MCU performed with retrograde filling of the urinary bladder using iodinated contrast under fluoroscopic guidance."
+      },
+      {
+        "label": "Bladder Filling",
+        "field": "bladder_filling",
+        "type": "text",
+        "normal": "Bladder fills symmetrically without trabeculation or diverticula."
+      },
+      {
+        "label": "Bladder Capacity",
+        "field": "bladder_capacity",
+        "type": "text",
+        "normal": "Bladder capacity is age-appropriate."
+      },
+      {
+        "label": "Vesicoureteric Reflux",
+        "field": "vur",
+        "type": "text",
+        "normal": "No evidence of vesicoureteric reflux on either side."
+      },
+      {
+        "label": "Urethra During Voiding",
+        "field": "urethra_voiding",
+        "type": "text",
+        "normal": "Urethra is smooth and shows no narrowing or irregularity during voiding."
+      },
+      {
+        "label": "Residual Contrast",
+        "field": "residual_contrast",
+        "type": "text",
+        "normal": "Minimal residual contrast in bladder post-voiding, within normal limits."
+      },
+      {
+        "label": "Incidental Findings",
+        "field": "incidental",
+        "type": "text",
+        "normal": "No significant incidental findings."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "Fluoroscopy",
+    "system": "Genitourinary",
+    "diagnosis": "Retrograde Urethrogram (RGU)",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Study Technique",
+        "field": "technique",
+        "type": "text",
+        "normal": "Retrograde urethrogram performed using iodinated contrast instilled into the external urethral meatus under fluoroscopic control."
+      },
+      {
+        "label": "Anterior Urethra",
+        "field": "anterior_urethra",
+        "type": "text",
+        "normal": "Anterior urethra is normal in caliber and contour. No stricture, diverticulum, or extravasation seen."
+      },
+      {
+        "label": "Posterior Urethra",
+        "field": "posterior_urethra",
+        "type": "text",
+        "normal": "Posterior urethra is adequately visualized and appears normal."
+      },
+      {
+        "label": "Urethral Stricture",
+        "field": "stricture",
+        "type": "text",
+        "normal": "No evidence of urethral stricture."
+      },
+      {
+        "label": "Contrast Extravasation",
+        "field": "extravasation",
+        "type": "text",
+        "normal": "No contrast extravasation seen."
+      },
+      {
+        "label": "Bladder Neck Visualization",
+        "field": "bladder_neck",
+        "type": "text",
+        "normal": "Bladder neck not visualized on RGU, as expected."
+      },
+      {
+        "label": "Incidental Findings",
+        "field": "incidental",
+        "type": "text",
+        "normal": "No significant incidental findings."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "Fluoroscopy",
+    "system": "Genitourinary",
+    "diagnosis": "Intravenous Urogram (IVU)",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Study Technique",
+        "field": "technique",
+        "type": "text",
+        "normal": "IVU performed after IV contrast administration with serial radiographs taken at timed intervals."
+      },
+      {
+        "label": "Kidney Size and Position",
+        "field": "kidney_size",
+        "type": "text",
+        "normal": "Both kidneys are normal in size and position."
+      },
+      {
+        "label": "Nephrogram Phase",
+        "field": "nephrogram",
+        "type": "text",
+        "normal": "Prompt and symmetric nephrograms noted."
+      },
+      {
+        "label": "Excretion and Pelvicalyceal System",
+        "field": "excretion",
+        "type": "text",
+        "normal": "Contrast excretion is prompt and symmetric. PCS appears normal bilaterally."
+      },
+      {
+        "label": "Ureters",
+        "field": "ureters",
+        "type": "text",
+        "normal": "Ureters are well-opacified, non-dilated and show smooth course without filling defects."
+      },
+      {
+        "label": "Urinary Bladder",
+        "field": "bladder",
+        "type": "text",
+        "normal": "Urinary bladder is normally distended with smooth contour. No filling defects or trabeculation."
+      },
+      {
+        "label": "Post-Void Film",
+        "field": "postvoid",
+        "type": "text",
+        "normal": "Post-void film shows minimal residual urine."
+      },
+      {
+        "label": "Incidental Findings",
+        "field": "incidental",
+        "type": "text",
+        "normal": "No significant incidental findings."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "CT",
+    "system": "Chest",
+    "diagnosis": "CECT Chest",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Procedure Information",
+        "field": "procedure_info",
+        "type": "text",
+        "normal": "CECT chest performed with intravenous iodinated contrast. Axial images with coronal and sagittal reconstructions obtained."
+      },
+      {
+        "label": "Study Phases",
+        "field": "phases",
+        "type": "text",
+        "normal": "Images obtained in post-contrast venous phase."
+      },
+      {
+        "label": "Lung Parenchyma",
+        "field": "lung_parenchyma",
+        "type": "text",
+        "normal": "Lung fields are clear. No consolidation, nodules, masses, cavitation, or ground-glass opacities seen."
+      },
+      {
+        "label": "Bronchial Tree",
+        "field": "bronchial_tree",
+        "type": "text",
+        "normal": "Trachea and bronchi are patent with normal caliber and wall thickness."
+      },
+      {
+        "label": "Pleura",
+        "field": "pleura",
+        "type": "text",
+        "normal": "No pleural effusion or thickening. No pneumothorax seen."
+      },
+      {
+        "label": "Mediastinum",
+        "field": "mediastinum",
+        "type": "text",
+        "normal": "Mediastinal structures are within normal limits. No lymphadenopathy or mass lesion."
+      },
+      {
+        "label": "Heart and Pericardium",
+        "field": "heart",
+        "type": "text",
+        "normal": "Cardiac size is normal. No pericardial effusion or calcification."
+      },
+      {
+        "label": "Vessels",
+        "field": "vessels",
+        "type": "text",
+        "normal": "Main pulmonary artery and aorta are normal in caliber. No filling defects or aneurysmal dilation."
+      },
+      {
+        "label": "Chest Wall",
+        "field": "chest_wall",
+        "type": "text",
+        "normal": "No rib fractures or soft tissue abnormalities."
+      },
+      {
+        "label": "Upper Abdomen",
+        "field": "upper_abdomen",
+        "type": "text",
+        "normal": "Visualized upper abdominal organs are unremarkable."
+      },
+      {
+        "label": "Incidental Findings",
+        "field": "incidental",
+        "type": "text",
+        "normal": "No significant incidental findings."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "CT",
+    "system": "Chest",
+    "diagnosis": "HRCT Chest",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Procedure Information",
+        "field": "procedure_info",
+        "type": "text",
+        "normal": "High-resolution CT scan of chest performed using thin sections in supine and prone positions with inspiratory and expiratory phases."
+      },
+      {
+        "label": "Lung Parenchyma",
+        "field": "lung_parenchyma",
+        "type": "text",
+        "normal": "Lung fields are clear with preserved architecture. No interstitial thickening, honeycombing, or ground-glass opacities."
+      },
+      {
+        "label": "Airways",
+        "field": "airways",
+        "type": "text",
+        "normal": "Trachea and central bronchi are patent. No bronchial wall thickening or bronchiectasis."
+      },
+      {
+        "label": "Interlobular Septae",
+        "field": "septa",
+        "type": "text",
+        "normal": "Interlobular septae are normal. No thickening noted."
+      },
+      {
+        "label": "Subpleural Regions",
+        "field": "subpleural",
+        "type": "text",
+        "normal": "No subpleural reticulations or abnormalities."
+      },
+      {
+        "label": "Pleura",
+        "field": "pleura",
+        "type": "text",
+        "normal": "No pleural effusion or pleural thickening."
+      },
+      {
+        "label": "Mediastinum",
+        "field": "mediastinum",
+        "type": "text",
+        "normal": "No mediastinal lymphadenopathy or masses."
+      },
+      {
+        "label": "Chest Wall",
+        "field": "chest_wall",
+        "type": "text",
+        "normal": "Chest wall structures are unremarkable. No rib fractures or lesions."
+      },
+      {
+        "label": "Incidental Findings",
+        "field": "incidental",
+        "type": "text",
+        "normal": "No significant incidental findings."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "CT",
+    "system": "Abdomen",
+    "diagnosis": "CECT Abdomen",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Procedure Information",
+        "field": "procedure_info",
+        "type": "text",
+        "normal": "CECT abdomen performed with oral and intravenous contrast. Axial sections with multiplanar reconstructions obtained."
+      },
+      {
+        "label": "Liver",
+        "field": "liver",
+        "type": "text",
+        "normal": "Liver is normal in size, morphology, and attenuation. No focal lesions or intrahepatic biliary dilatation."
+      },
+      {
+        "label": "Gallbladder & Biliary Tree",
+        "field": "gallbladder",
+        "type": "text",
+        "normal": "Gallbladder is distended with normal wall thickness. No stones. Biliary tree is not dilated."
+      },
+      {
+        "label": "Pancreas",
+        "field": "pancreas",
+        "type": "text",
+        "normal": "Pancreas shows normal size, contour, and enhancement. No peripancreatic collections or ductal dilatation."
+      },
+      {
+        "label": "Spleen",
+        "field": "spleen",
+        "type": "text",
+        "normal": "Spleen is normal in size and attenuation. No focal lesions."
+      },
+      {
+        "label": "Adrenal Glands",
+        "field": "adrenals",
+        "type": "text",
+        "normal": "Adrenal glands are normal in size and shape. No masses."
+      },
+      {
+        "label": "Kidneys & Ureters",
+        "field": "kidneys",
+        "type": "text",
+        "normal": "Both kidneys are normal in size, shape, and enhancement. No hydronephrosis or calculi. Ureters are not dilated."
+      },
+      {
+        "label": "Urinary Bladder",
+        "field": "bladder",
+        "type": "text",
+        "normal": "Urinary bladder is normally distended with smooth walls."
+      },
+      {
+        "label": "Bowel Loops",
+        "field": "bowel",
+        "type": "text",
+        "normal": "Small and large bowel loops are normal in caliber. No wall thickening, obstruction, or free air."
+      },
+      {
+        "label": "Mesentery & Peritoneum",
+        "field": "mesentery",
+        "type": "text",
+        "normal": "No mesenteric lymphadenopathy, stranding or ascites seen."
+      },
+      {
+        "label": "Vessels",
+        "field": "vessels",
+        "type": "text",
+        "normal": "Aorta and its branches are normal in caliber. No aneurysm or dissection. No thrombosis or abnormal enhancement."
+      },
+      {
+        "label": "Bones",
+        "field": "bones",
+        "type": "text",
+        "normal": "Visualized bones show normal mineralization. No lytic or sclerotic lesions."
+      },
+      {
+        "label": "Incidental Findings",
+        "field": "incidental",
+        "type": "text",
+        "normal": "No significant incidental findings."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "CT",
+    "system": "Abdomen",
+    "diagnosis": "CT Urography",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Procedure Information",
+        "field": "procedure_info",
+        "type": "text",
+        "normal": "CT Urography performed with non-contrast, nephrographic, and excretory phase imaging. IV iodinated contrast administered."
+      },
+      {
+        "label": "Kidneys",
+        "field": "kidneys",
+        "type": "text",
+        "normal": "Kidneys are normal in size and contour. No calculi or focal lesions. Corticomedullary differentiation is maintained."
+      },
+      {
+        "label": "Nephrogram Phase",
+        "field": "nephrogram",
+        "type": "text",
+        "normal": "Symmetric and prompt nephrograms seen bilaterally."
+      },
+      {
+        "label": "Pelvicalyceal System",
+        "field": "pcs",
+        "type": "text",
+        "normal": "Pelvicalyceal systems are normal in caliber and configuration. No filling defects or dilatation."
+      },
+      {
+        "label": "Ureters",
+        "field": "ureters",
+        "type": "text",
+        "normal": "Ureters are traced bilaterally. No evidence of obstruction or mass effect."
+      },
+      {
+        "label": "Urinary Bladder",
+        "field": "bladder",
+        "type": "text",
+        "normal": "Urinary bladder is distended and shows smooth outline. No wall thickening or filling defects."
+      },
+      {
+        "label": "Adrenal Glands",
+        "field": "adrenals",
+        "type": "text",
+        "normal": "Adrenal glands are unremarkable bilaterally."
+      },
+      {
+        "label": "Visualized Bowel Loops",
+        "field": "bowel",
+        "type": "text",
+        "normal": "Visualized bowel loops are normal. No abnormal dilatation or wall thickening."
+      },
+      {
+        "label": "Incidental Findings",
+        "field": "incidental",
+        "type": "text",
+        "normal": "No significant incidental findings noted."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "CT",
+    "system": "Abdomen",
+    "diagnosis": "CT Enterography",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Procedure Information",
+        "field": "procedure_info",
+        "type": "text",
+        "normal": "CT Enterography performed after administration of oral contrast and IV contrast in arterial and venous phases. Thin-section images obtained."
+      },
+      {
+        "label": "Small Bowel",
+        "field": "small_bowel",
+        "type": "text",
+        "normal": "Small bowel loops are well-distended with oral contrast. No wall thickening, enhancement abnormality, strictures, or masses."
+      },
+      {
+        "label": "Ileocecal Junction",
+        "field": "ileocecal_junction",
+        "type": "text",
+        "normal": "Ileocecal junction appears normal. No inflammation, stricture, or masses."
+      },
+      {
+        "label": "Large Bowel",
+        "field": "large_bowel",
+        "type": "text",
+        "normal": "Large bowel loops are normal in caliber. No wall thickening or abnormal enhancement."
+      },
+      {
+        "label": "Mesentery",
+        "field": "mesentery",
+        "type": "text",
+        "normal": "No fat stranding, lymphadenopathy, or vascular engorgement noted."
+      },
+      {
+        "label": "Vasculature",
+        "field": "vasculature",
+        "type": "text",
+        "normal": "Superior mesenteric artery and vein are normal in caliber. No thrombosis or aneurysm."
+      },
+      {
+        "label": "Liver",
+        "field": "liver",
+        "type": "text",
+        "normal": "Liver is normal in size, morphology, and enhancement. No focal lesions."
+      },
+      {
+        "label": "Pancreas",
+        "field": "pancreas",
+        "type": "text",
+        "normal": "Pancreas is normal in size and enhancement. No peripancreatic inflammation or collections."
+      },
+      {
+        "label": "Spleen",
+        "field": "spleen",
+        "type": "text",
+        "normal": "Spleen is normal in size and attenuation."
+      },
+      {
+        "label": "Adrenals",
+        "field": "adrenals",
+        "type": "text",
+        "normal": "Adrenal glands are normal bilaterally."
+      },
+      {
+        "label": "Kidneys & Bladder",
+        "field": "kidneys_bladder",
+        "type": "text",
+        "normal": "Kidneys and urinary bladder are unremarkable."
+      },
+      {
+        "label": "Incidental Findings",
+        "field": "incidental",
+        "type": "text",
+        "normal": "No significant incidental findings noted."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "CT",
+    "system": "Abdomen",
+    "diagnosis": "CT Colonography",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant clinical history not provided."
+      },
+      {
+        "label": "Procedure Information",
+        "field": "procedure_info",
+        "type": "text",
+        "normal": "CT Colonography performed following bowel preparation and colonic insufflation with CO2. Supine and prone acquisitions obtained."
+      },
+      {
+        "label": "Rectum",
+        "field": "rectum",
+        "type": "text",
+        "normal": "Rectum is well distended and shows no masses, thickening or polyps."
+      },
+      {
+        "label": "Sigmoid Colon",
+        "field": "sigmoid",
+        "type": "text",
+        "normal": "Sigmoid colon is normal in caliber and wall thickness. No diverticula or masses."
+      },
+      {
+        "label": "Descending Colon",
+        "field": "descending",
+        "type": "text",
+        "normal": "Descending colon shows normal wall thickness. No polyps or strictures."
+      },
+      {
+        "label": "Transverse Colon",
+        "field": "transverse",
+        "type": "text",
+        "normal": "Transverse colon is well distended. No abnormal thickening or lesions."
+      },
+      {
+        "label": "Ascending Colon",
+        "field": "ascending",
+        "type": "text",
+        "normal": "Ascending colon is normal. No polypoidal lesions or thickening seen."
+      },
+      {
+        "label": "Cecum and Ileocecal Junction",
+        "field": "cecum",
+        "type": "text",
+        "normal": "Cecum is distended and normal. Ileocecal junction appears unremarkable."
+      },
+      {
+        "label": "Extracolonic Findings",
+        "field": "extracolonic",
+        "type": "text",
+        "normal": "No significant extracolonic findings noted."
+      },
+      {
+        "label": "Incidental Findings",
+        "field": "incidental",
+        "type": "text",
+        "normal": "No other abnormalities noted."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "CT",
+    "system": "Abdomen",
+    "diagnosis": "CT Abdomen Trauma",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Trauma - history not provided in detail."
+      },
+      {
+        "label": "Procedure Information",
+        "field": "procedure_info",
+        "type": "text",
+        "normal": "CECT Abdomen performed in arterial and venous phases. Thin-section axial and reformatted images reviewed."
+      },
+      {
+        "label": "Liver",
+        "field": "liver",
+        "type": "text",
+        "normal": "Liver is normal in size and morphology. No laceration, hematoma, or active contrast extravasation."
+      },
+      {
+        "label": "Spleen",
+        "field": "spleen",
+        "type": "text",
+        "normal": "Spleen is normal in size and shape. No evidence of traumatic injury."
+      },
+      {
+        "label": "Kidneys",
+        "field": "kidneys",
+        "type": "text",
+        "normal": "Kidneys show normal perfusion. No contusions, lacerations, or urinomas."
+      },
+      {
+        "label": "Adrenal Glands",
+        "field": "adrenals",
+        "type": "text",
+        "normal": "Adrenal glands appear normal. No hematoma or enlargement."
+      },
+      {
+        "label": "Pancreas",
+        "field": "pancreas",
+        "type": "text",
+        "normal": "Pancreas is normal. No signs of transection or peripancreatic fluid."
+      },
+      {
+        "label": "Bowel and Mesentery",
+        "field": "bowel",
+        "type": "text",
+        "normal": "Bowel loops are normal in caliber. No pneumoperitoneum or bowel wall thickening. No mesenteric stranding or vascular injury."
+      },
+      {
+        "label": "Peritoneum",
+        "field": "peritoneum",
+        "type": "text",
+        "normal": "No hemoperitoneum or free intraperitoneal air."
+      },
+      {
+        "label": "Bladder",
+        "field": "bladder",
+        "type": "text",
+        "normal": "Urinary bladder is distended. No wall injury or extravasation of contrast."
+      },
+      {
+        "label": "Pelvis",
+        "field": "pelvis",
+        "type": "text",
+        "normal": "Pelvic bones are intact. No fractures or hematomas."
+      },
+      {
+        "label": "Spine",
+        "field": "spine",
+        "type": "text",
+        "normal": "Visualized spine segments show no fractures or alignment abnormalities."
+      },
+      {
+        "label": "Other Organs",
+        "field": "other",
+        "type": "text",
+        "normal": "No other abnormalities seen."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  },
+  {
+    "modality": "CT",
+    "system": "Pelvis",
+    "diagnosis": "CT Pelvis",
+    "inputs": [
+      {
+        "label": "History",
+        "field": "history",
+        "type": "text",
+        "normal": "Relevant history not provided."
+      },
+      {
+        "label": "Procedure Information",
+        "field": "procedure_info",
+        "type": "text",
+        "normal": "CT Pelvis performed with IV contrast. Axial and multiplanar reconstructions reviewed."
+      },
+      {
+        "label": "Urinary Bladder",
+        "field": "bladder",
+        "type": "text",
+        "normal": "Bladder is well distended. No wall thickening, masses, or calcification."
+      },
+      {
+        "label": "Prostate/UT",
+        "field": "prostate_ut",
+        "type": "text",
+        "normal": "Prostate and urethra are normal in appearance. No focal lesions or asymmetry."
+      },
+      {
+        "label": "Uterus and Adnexa",
+        "field": "uterus",
+        "type": "text",
+        "normal": "Uterus is normal in size and contour. Endometrial stripe normal. Ovaries appear normal bilaterally."
+      },
+      {
+        "label": "Rectum and Sigmoid Colon",
+        "field": "rectum",
+        "type": "text",
+        "normal": "Rectum and sigmoid colon show normal caliber. No thickening or abnormal enhancement."
+      },
+      {
+        "label": "Pelvic Bones",
+        "field": "bones",
+        "type": "text",
+        "normal": "Pelvic bones show normal mineralization. No lytic or sclerotic lesions."
+      },
+      {
+        "label": "Pelvic Lymph Nodes",
+        "field": "nodes",
+        "type": "text",
+        "normal": "No pelvic lymphadenopathy noted."
+      },
+      {
+        "label": "Soft Tissues",
+        "field": "soft_tissues",
+        "type": "text",
+        "normal": "Pelvic soft tissues are unremarkable."
+      },
+      {
+        "label": "Incidental Findings",
+        "field": "incidental",
+        "type": "text",
+        "normal": "No significant incidental findings."
+      },
+      {
+        "label": "Impression",
+        "field": "impression",
+        "type": "textarea",
+        "normal": ""
+      },
+      {
+        "label": "Differential Diagnosis",
+        "field": "differential_diagnosis",
+        "type": "textarea",
+        "normal": ""
+      }
+    ]
+  }
+]
